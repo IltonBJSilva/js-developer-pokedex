@@ -1,2 +1,5 @@
-console.log('Hello, World sucess'); // Path: assets\js\main.js
-console.log('Hello, World sucess');
+
+const offset = 0
+const limit = 10
+
+const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
